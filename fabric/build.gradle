@@ -1,0 +1,37 @@
+plugins {
+    id 'fabric-loom' version '1.15.5'
+}
+
+version = '1.0.0'
+group = 'com.neryos.goatapples'
+
+base {
+    archivesName = 'goatapples-fabric-1.21.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21.1'
+    mappings loom.officialMojangMappings()
+    modImplementation 'net.fabricmc:fabric-loader:0.19.5'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.116.17+1.21.1'
+}
+
+loom {
+    runs {
+        client {
+            client()
+            runDir 'run'
+        }
+        server {
+            server()
+            runDir 'run/server'
+            programArg '--nogui'
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

@@ -1,0 +1,17 @@
+{
+  "goatapples.command.noPlayer": "Only a player can run this command.",
+  "goatapples.configuration.baited_enabled": "Baited charges shake trees",
+  "goatapples.configuration.baited_horn_mode": "Baited horn mode",
+  "goatapples.configuration.baited_shake_chance": "Baited shake chance",
+  "goatapples.configuration.chosen_enabled": "Goats choose trees",
+  "goatapples.configuration.chosen_horn_chance": "Chosen horn chance",
+  "goatapples.configuration.chosen_pick_chance": "Chosen pick chance",
+  "goatapples.configuration.chosen_search_radius": "Search radius",
+  "goatapples.configuration.chosen_shake_chance": "Chosen shake chance",
+  "goatapples.configuration.limits_max_loose_items_nearby": "Loose items nearby",
+  "goatapples.configuration.shake_golden_apple_chance": "Golden apple chance",
+  "goatapples.configuration.shake_max_leaves": "Leaves shaken",
+  "goatapples.configuration.tree_min_fruit_leaves": "Fruit leaves needed",
+  "goatapples.configuration.tree_natural_leaves_only": "Natural leaves only",
+  "goatapples.configuration.tree_rest_seconds": "Tree rest"
+}

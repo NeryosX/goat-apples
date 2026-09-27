@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="goatapples"
+version="1.0.0"
+displayName="Goat Apples"
+logoFile="goatapples_logo.png"
+authors="Neryos"
+description="Goats headbutt trees and apples fall out of the leaves."
+displayTest="IGNORE_SERVER_VERSION"
+
+[[dependencies.goatapples]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.249,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.goatapples]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="goatapples.mixins.json"

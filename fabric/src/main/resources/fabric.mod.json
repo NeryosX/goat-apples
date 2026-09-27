@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "goatapples",
+  "version": "1.0.0",
+  "name": "Goat Apples",
+  "description": "Goats headbutt trees and apples fall out of the leaves.",
+  "authors": [
+    "Neryos"
+  ],
+  "icon": "assets/goatapples/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.neryos.goatapples.GoatApplesMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "goatapples.mixins.json"
+  ]
+}

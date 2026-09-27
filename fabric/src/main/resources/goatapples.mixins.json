@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.neryos.goatapples.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RamTargetMixin",
+    "GoatAIMixin",
+    "PrepareRamMixin",
+    "ServerLevelMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
