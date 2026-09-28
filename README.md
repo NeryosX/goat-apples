@@ -13,9 +13,9 @@ A goat that has nobody to charge sometimes walks up to a fruit tree nearby, lowe
 charges it the same way it charges a player. The canopy shakes and a few apples drop out from under
 the leaves.
 
-## A missed charge shakes the tree too
+![Two goats charge the same oak and knock apples loose](docs/media/02-baited-miss.gif)
 
-![A goat charges the player, misses, hits the trunk and shakes apples loose](docs/media/02-baited-miss.gif)
+## A missed charge shakes the tree too
 
 Step out of the way of a charging goat next to a tree and the goat hits the trunk instead. Whether
 that costs it a horn is up to you: always, only when the tree shakes, or never.
@@ -26,7 +26,7 @@ that costs it a horn is up to you: always, only when the tree shakes, or never.
 
 ## A goat pen is an apple farm
 
-![Goats fenced in around two oaks, apples on the grass](docs/media/04-goat-pen-farm.png)
+![Goats fenced in around an oak, apples on the grass](docs/media/04-goat-pen-farm.png)
 
 Goats charging a tree they picked keep their horns by default, and a goat with no horns left still
 shakes trees. A tree rests for a while after it drops fruit, and nothing drops while too many items
@@ -54,6 +54,10 @@ adds no blocks, items, entities or network channels. The Fabric version needs Fa
 Each loader is its own Gradle build and needs Java 21: `cd neoforge` or `cd fabric`, then
 `./gradlew build`. The jar ends up in `build/libs`. Bugs and ideas:
 <https://github.com/NeryosX/goat-apples/issues>.
+
+## Made with Modryos
+
+Goat Apples was built in [Modryos](https://modryos.com), a mod engine for Minecraft.
 
 ## License
 
