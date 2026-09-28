@@ -1,47 +1,60 @@
 # Goat Apples
 
-Goats headbutt trees and apples fall out of the leaves.
+![A goat picks an oak, charges it, and apples fall out from under the leaves](docs/media/01-charge-shake.gif)
 
-A small server-side mod for Minecraft 1.21.1, on NeoForge and Fabric. Players don't need it
-installed, and vanilla clients can join a server that runs it.
+**Goats headbutt trees and apples fall out of the leaves.**
 
-Based on the Minecraft feedback post "Apples falling from trees when goats ram them".
+Minecraft 1.21.1 · NeoForge and Fabric · server side only · MIT. Based on the Minecraft feedback
+post "Apples falling from trees when goats ram them".
 
-## What it does
+## A goat with nothing to ram picks a tree
 
-- A goat that charges, misses and runs into a tree trunk can shake the tree.
-- A goat with nothing to ram sometimes picks a nearby fruit tree and charges it.
-- A shaken tree drops a few apples from under its leaves, and once in a while a golden apple.
-- A tree rests for a while after it's shaken, and nothing drops while too many items already lie
-  on the ground nearby.
-- Goats charging a tree they picked keep their horns by default.
+A goat that has nobody to charge sometimes walks up to a fruit tree nearby, lowers its head and
+charges it the same way it charges a player. The canopy shakes and a few apples drop out from under
+the leaves.
 
-Everything is configurable in `config/goatapples-common.toml` (NeoForge) or
-`config/goatapples-common.json` (Fabric), and changes are picked up while the game runs.
-Operators can run `/goatapples` to see whether baited charges shake trees and which horn mode is
-set.
+## A missed charge shakes the tree too
 
-## Download
+![A goat charges the player, misses, hits the trunk and shakes apples loose](docs/media/02-baited-miss.gif)
+
+Step out of the way of a charging goat next to a tree and the goat hits the trunk instead. Whether
+that costs it a horn is up to you: always, only when the tree shakes, or never.
+
+## Now and then, a golden apple
+
+![A golden apple lying among the apples under an oak](docs/media/03-golden-apple.png)
+
+## A goat pen is an apple farm
+
+![Goats fenced in around two oaks, apples on the grass](docs/media/04-goat-pen-farm.png)
+
+Goats charging a tree they picked keep their horns by default, and a goat with no horns left still
+shakes trees. A tree rests for a while after it drops fruit, and nothing drops while too many items
+already lie nearby, so a pen never floods the ground.
+
+## Every number is yours
+
+![The Goat Apples settings screen](docs/media/05-config-screen.png)
+
+Chances, the search radius, the tree's rest time, the horn rules and the item cap are all in
+`config/goatapples-common.toml` (NeoForge) or `config/goatapples-common.json` (Fabric), and changes
+are picked up while the game runs. Operators can run `/goatapples` to see whether baited charges
+shake trees and which horn mode is set.
+
+## Install
+
+Drop the jar into `mods/` on the server. Players don't need it, and vanilla clients can join. It
+adds no blocks, items, entities or network channels. The Fabric version needs Fabric API.
 
 - Modrinth: https://modrinth.com/mod/goat-apples
 - CurseForge: https://www.curseforge.com/minecraft/mc-mods/goat-apples
 
 ## Building
 
-Each loader is its own Gradle build and needs Java 21.
-
-```
-cd neoforge
-./gradlew build
-```
-
-```
-cd fabric
-./gradlew build
-```
-
-The jar ends up in `build/libs`.
+Each loader is its own Gradle build and needs Java 21: `cd neoforge` or `cd fabric`, then
+`./gradlew build`. The jar ends up in `build/libs`. Bugs and ideas:
+<https://github.com/NeryosX/goat-apples/issues>.
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+MIT. Modpacks welcome, no permission needed.
