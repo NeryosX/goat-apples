@@ -1,6 +1,5 @@
 # Goat Apples
 
-[![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?logo=modrinth&logoColor=white)](https://modrinth.com/mod/goat-apples)
 [![CurseForge](https://img.shields.io/badge/CurseForge-Download-F16436?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/goat-apples)
 [![Release](https://img.shields.io/github/v/release/NeryosX/goat-apples?label=Release)](https://github.com/NeryosX/goat-apples/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
@@ -16,14 +15,13 @@ feedback post "Apples falling from trees when goats ram them".
 
 | Minecraft | NeoForge | Fabric |
 | --- | :---: | :---: |
-| 26.2 | Yes | Yes |
-| 26.1.2 | Yes | Yes |
-| 1.21.11 | Yes | Yes |
-| 1.21.1 | Yes | Yes |
-| 1.20.1 | No | Yes |
+| 26.2 | ✓ | ✓ |
+| 26.1.2 | ✓ | ✓ |
+| 1.21.11 | ✓ | ✓ |
+| 1.21.1 | ✓ | ✓ |
+| 1.20.1 | ✗ | ✓ |
 
-Every jar is on [Modrinth](https://modrinth.com/mod/goat-apples/versions),
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/goat-apples/files) and the
+Every jar is on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/goat-apples/files) and the
 [release page](https://github.com/NeryosX/goat-apples/releases/latest). Pick the one named for your
 loader and game version. The Fabric jars need Fabric API.
 
