@@ -1,11 +1,31 @@
 # Goat Apples
 
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?logo=modrinth&logoColor=white)](https://modrinth.com/mod/goat-apples)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-F16436?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/goat-apples)
+[![Release](https://img.shields.io/github/v/release/NeryosX/goat-apples?label=Release)](https://github.com/NeryosX/goat-apples/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
 ![A goat picks an oak, charges it, and apples fall out from under the leaves](docs/media/01-charge-shake.gif)
 
 **Goats headbutt trees and apples fall out of the leaves.**
 
-Minecraft 1.21.1 · NeoForge and Fabric · server side only · MIT. Based on the Minecraft feedback
-post "Apples falling from trees when goats ram them".
+NeoForge and Fabric · Minecraft 1.20.1 to 26.2 · server side only · MIT. Based on the Minecraft
+feedback post "Apples falling from trees when goats ram them".
+
+## Versions
+
+| Minecraft | NeoForge | Fabric |
+| --- | :---: | :---: |
+| 26.2 | Yes | Yes |
+| 26.1.2 | Yes | Yes |
+| 1.21.11 | Yes | Yes |
+| 1.21.1 | Yes | Yes |
+| 1.20.1 | No | Yes |
+
+Every jar is on [Modrinth](https://modrinth.com/mod/goat-apples/versions),
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/goat-apples/files) and the
+[release page](https://github.com/NeryosX/goat-apples/releases/latest). Pick the one named for your
+loader and game version. The Fabric jars need Fabric API.
 
 ## A goat with nothing to ram picks a tree
 
@@ -46,14 +66,11 @@ shake trees and which horn mode is set.
 Drop the jar into `mods/` on the server. Players don't need it, and vanilla clients can join. It
 adds no blocks, items, entities or network channels. The Fabric version needs Fabric API.
 
-- Modrinth: https://modrinth.com/mod/goat-apples
-- CurseForge: https://www.curseforge.com/minecraft/mc-mods/goat-apples
-
 ## Building
 
-Each loader is its own Gradle build and needs Java 21: `cd neoforge` or `cd fabric`, then
-`./gradlew build`. The jar ends up in `build/libs`. Bugs and ideas:
-<https://github.com/NeryosX/goat-apples/issues>.
+The source here is the Minecraft 1.21.1 version. Each loader is its own Gradle build and needs
+Java 21: `cd neoforge` or `cd fabric`, then `./gradlew build`. The jar ends up in `build/libs`.
+Bugs and ideas: <https://github.com/NeryosX/goat-apples/issues>.
 
 ## Made with Modryos
 
